@@ -1,4 +1,4 @@
- mvar BasicCard = function(front, back) {
+ var BasicCard = function(front, back) {
     if (!(this instanceof BasicCard)) {
         return new BasicCard(front, back);
     
